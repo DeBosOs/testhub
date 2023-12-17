@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* Font komt van https://fonts.google.com */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(130, 130, 130);
+}
+
+main {
+    margin: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+header {
+    background-color: #24252A;
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+}
+
+.nav_items {
+    color: #40E0D0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    color: #40E0D0;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #0088a9;
+    transform: scale(2);
+}
+
+.autolijst {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button:hover {
+    color: white;
+    transform: scale(2)
+}
+
+.topknop {
+    margin: 10vh;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid white;
+    background-color: #24252A;
+    color: white;
+    float: right;
+    transition: all 0.3s ease;
+}
+
+.topknop:hover {
+    transform: scale(1.5);
+    color: #0088a9;
+}
+
+.vlag {
+    display: flex;
+    justify-content: center;
+}
+
+#vlag {
+    width: 20vh;
+}
+
+.JDM_lijst {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#stock_miata {
+    width: 20%;
+}
+
+#tuned_miata {
+    width: 25%;
+    display: flex;
+}
+
+#bovenkant {
+    font-size: 2.5em;
+}
+
+.v8miata {
+    height: 30vh;
+    background: url(/images/miata.jpeg);
+    /* Deze foto is de thumbnail van deze video https://www.youtube.com/watch?v=Sx_9mGQrA-Y (echt een aanrader dit kanaal trouwens :p */
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.mustang {
+    height: 20vh;
+    background: url(images/mustang.jpeg);
+    /* foto komt van https://www.instagram.com/p/Cu2MqhjrBMo/ */
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#ford {
+    width: 80%;
+}
